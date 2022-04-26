@@ -1,0 +1,343 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ol,
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+ }
+.container{
+    width: 1175px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_heading{
+    text-align: center;
+}
+/* Common Css End */
+
+nav{
+    background-color: #131e29;
+}
+
+nav .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 20%;
+}
+
+nav .logo img{
+    display: block;
+}
+
+nav .menu{
+    width: 80%;
+}
+
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav .menu ul li a{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    color: #ffffff;
+    padding: 40px 18.5px;
+    transition: all .5s linear;
+}
+
+nav .menu ul li a:hover{
+    background-color: #4bcaff;
+    color: #131e29;
+}
+nav .menu ul li:nth-child(1) a{
+    color: #4bcaff;
+    font-weight: 700;
+}
+
+.sec_info{
+    align-items: center;
+}
+/* Banner Section Css Start */
+#banner{
+    height: 695px;
+    background-image: url(../img/Banner_bg.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+#banner .container{
+    height: 100%;
+}
+
+#banner .row{
+    height: 100%;
+    align-items: center;
+}
+
+#banner .banner_content{
+    width: 60%;
+    margin-left: auto;
+    color: #ffffff;
+}
+
+#banner .banner_image{
+    width: 38%;
+    position: absolute;
+    left: 0;
+    bottom: -95px;
+}
+
+#banner .banner_content h1{
+    font-weight: 300;
+    font-size: 48px;
+}
+
+#banner .banner_content h1 span{
+    font-weight: 700;
+}
+#banner .banner_content p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    margin: 34px 0 44px 0;
+}
+
+#banner .banner_btn a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 25px 51px;
+    margin-right: 40px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: all .5s linear;
+}
+
+#banner .banner_btn a:hover{
+    background-color: #4bcaff;
+    color: #131e29;
+}
+
+#banner .banner_app_btn p{
+    margin-right: 22px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#banner .banner_app_btn{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 48px 0 43px 0;
+}
+
+#banner .banner_app_btn a{
+    width: 50px;
+    height: 50px;
+    background-color: #131e29;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #4bcaff;
+    margin-right: 19px;
+    display: inline-block;
+    transition: all .5s linear;
+}
+
+#banner .banner_app_btn a:hover{
+    background-color: #4bcaff;
+    color: #131e29;
+}
+/* Bannner Section Css End */
+
+/* Features Section Css Start */
+#features{
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f9f9f9;
+}
+#features .section_heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #131e29;
+}
+#features .section_heading p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#features .section_content{
+    margin: 0 0 94px 0; 
+    padding-top: 50px;
+}
+#features .features-item{
+    width: 25%;
+    margin-top: 70px;
+    padding: 0 30px;
+}
+#features .features-item .img-container{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #4bcaff;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #efefef;
+    
+}
+#features .features-item .img-container img{
+    width: 50%;
+    height: 50%;
+}
+#features .features-item h5{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: #414042;
+    text-align: center;
+}
+#features .features-item p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #838383;
+    text-align: center;
+}
+/* Features Section Css End */
+
+/* Gallery Section Css Start */
+
+#gallery{
+    margin: 58px 0;
+}
+#gallery .section_heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #131e29;
+}
+#gallery .section_heading p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#gallery .gallery-item{
+    width: 25%;
+}
+#gallery .gallery-item .screenshot{
+    width: 270px;
+    height: 200px;
+    background-color: #4bcaff;
+    border-radius: 10px;
+    position: relative;
+    margin: 62px 0 23px 0;
+}
+#gallery .gallery-item .screenshot img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#gallery .gallery-item .screenshot p{
+    background-color: rgba(65, 64, 66, 0.65);
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 71px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #4bcaff;
+    transition: all 0.5s linear;
+}
+#gallery .gallery-item .screenshot:hover p{
+    opacity: 0;
+    visibility: hidden;
+}
+#gallery .gallery-item > p{
+    color: #838383;
+    width: 220px;
+    letter-spacing: 0;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto;
+} 
+/* Gallery Section Css End */
+
+/* Technology Section Css Start */
+#technology{
+    height: 550px;
+    background-image: url("../img/technology_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#technology::after{
+    content: '';
+    width: 100%;
+    height: 550px;
+    background-color: #131e29;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.40;
+    z-index: -1;
+}
+#technology .container{
+    height: 100%;
+}
+#technology .row{
+    height: 100%;
+    align-items: center;
+}
+#technology .technology_content{
+    width: 100%;
+}
+#technology .technology_content h2{
+    font-size: 48px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#technology .technology_content h2 span{
+    font-weight: 700;
+}
+#technology .technology_content p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+/* Technology Section Css End */
+
